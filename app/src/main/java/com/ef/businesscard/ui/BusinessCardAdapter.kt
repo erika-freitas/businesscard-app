@@ -30,7 +30,7 @@ class BusinessCardAdapter :
         private val binding: ItemBusinessCardBinding
     ) : RecyclerView.ViewHolder(binding.root) {
         fun bind(item: BusinessCard) {
-            binding.tvName.text = item.nome
+            binding.tvName.text = item.name
             binding.tvPhone.text = item.phone
             binding.tvEmail.text = item.email
             binding.tvCompany.text = item.company

@@ -8,4 +8,5 @@
     <string name="label_company">Company</string>
     <string name="label_color">Color</string>
     <string name="label_add">Add</string>
+    <string name="label_show_success">Success! New card registered :)</string>
 </resources>
